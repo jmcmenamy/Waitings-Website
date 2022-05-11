@@ -1,0 +1,34 @@
+table input {
+    background-color: inherit;
+    color: inherit;
+    border: none;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: black;
+    opacity: 1; /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: black;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    color: black;
+  }
+  table {
+    border: 2px solid currentColor !important;
+  }
+  body {
+      margin-left:1vw !important;
+      margin-right:1vw !important
+  }
+  #dateLabel {
+      margin-right:1vw;
+  }
+  title {
+    display: block !important;
+    text-align: center;
+    font-size: 7vw;
+    font-weight: lighter;
+    margin-bottom: 0;
+  }

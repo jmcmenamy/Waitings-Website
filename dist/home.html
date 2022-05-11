@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+<!-- <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css"> -->
+<!-- <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script> -->
+<link rel="stylesheet" href="main.css">
+
+</head>
+
+<body>
+  <title>TT Waitings and Midnights</title>
+    <table class="table table-responsive">
+      <caption>Click on a cell to make changes</caption>
+        <thead>
+          <tr>
+            <th scope="col"><div><label id="dateLabel" for="Week">Week of   </label><input id="Week" name="Week"></input></div></th>
+            <th scope="col">Monday</th>
+            <th scope="col">Tuesday</th>
+            <th scope="col">Wednesday</th>
+            <th scope="col">Thursday</th>
+            <th scope="col">Friday</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="table-danger">
+            <th scope="row">Dinner</th>
+            <td><input id="Monday Dinner"></input></td>
+            <td><input id="Tuesday Dinner"></input></td>
+            <td><input id="Wednesday Dinner"></input></td>
+            <td><input id="Thursday Dinner"></input></td>
+            <td><input id="Friday Dinner"></input></td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr class="table-success">
+            <th scope="rowgroup" rowspan="2">Waitings</th>
+            <td><input id="Monday Waitings 1"></input></td>
+            <td><input id="Tuesday Waitings 1"></input></td>
+            <td><input id="Wednesday Waitings 1"></input></td>
+            <td><input id="Thursday Waitings 1"></input></td>
+            <td><input id="Friday Waitings 1"></input></td>
+          </tr>
+          <tr class="table-success">
+            <td><input id="Monday Waitings 2"></input></td>
+            <td><input id="Tuesday Waitings 2"></input></td>
+            <td><input id="Wednesday Waitings 2"></input></td>
+            <td><input id="Thursday Waitings 2"></input></td>
+            <td><input id="Friday Waitings 2"></input></td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr class="table-primary">
+            <th scope="rowgroup" rowspan="2">Midnights</th>
+            <td><input id="Monday Midnights 1"></input></td>
+            <td><input id="Tuesday Midnights 1"></input></td>
+            <td><input id="Wednesday Midnights 1"></input></td>
+            <td><input id="Thursday Midnights 1"></input></td>
+            <td><input id="Friday Midnights 1"></input></td>
+          </tr>
+          <tr class="table-primary">
+            <td><input id="Monday Midnights 2"></input></td>
+            <td><input id="Tuesday Midnights 2"></input></td>
+            <td><input id="Wednesday Midnights 2"></input></td>
+            <td><input id="Thursday Midnights 2"></input></td>
+            <td><input id="Friday Midnights 2"></input></td>
+          </tr>
+        </tbody>
+      </table>
+<div id="submitdiv">
+<label for="passcode">Passcode to submit new Week:</label>
+
+<input type="text" id="passcode" name="passcode">
+<button type="button" id ="submitButton" class="btn btn-warning">Submit Changes</button>
+</div>
+</body>
+<script src="main.js"></script>
+</html>
