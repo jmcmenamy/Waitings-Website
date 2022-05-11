@@ -9,13 +9,6 @@ import { getFirestore, collection, getDocs, doc, setDoc } from 'firebase/firesto
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyCCJNKURSeGbKuPVlU9_SSxEGkYax77gHM",
-  authDomain: "tt-waitings-and-midnights.firebaseapp.com",
-  projectId: "tt-waitings-and-midnights",
-  storageBucket: "tt-waitings-and-midnights.appspot.com",
-  messagingSenderId: "180025374911",
-  appId: "1:180025374911:web:803bbf2cafebf4e3b4ee0a",
-  measurementId: "G-QWJ2G3VSYR"
 };
 
 
